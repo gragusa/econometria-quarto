@@ -1,29 +1,47 @@
 ---
-title: Onyxia
+lecture: Lezione 1
+topic: "Introduzione al corso"
+canale: |
+  Canale: M-Z
+course: Econometria 
+number: 12334
+academicyear: 2022-2023
+title: |
+  {{< meta lecture >}}: \ 
+  {{< meta topic >}}
 subtitle: |
-  **[The open source\
-  cloud native\
-  data science platform]{.orange}**
+  **[Econometria {{< meta academicyear >}}\
+  {{< meta canale >}} \
+  Corso di Laurea in Economia e Finanza \
+  ]{.bluette}**
 author: |
-  [InseeFrLab](https://github.com/InseeFrLab)
+  Giuseppe Ragusa
+institute: |
+  [{{< meta author >}}](htpps://gragusa.org) \ 
+  Sapienza Universita' di Roma
 date: today
 slide-number: true
 footer: |
-  **[onyxia.sh](https://www.onyxia.sh)**
+  {{< meta author >}} - {{< meta lecture >}} - {{< meta course >}} {{< meta canale >}} - {{< meta date >}} 
 # uncomment for French presentations:
 #lang: fr
 # for blind readers:
-slide-tone: true
+slide-tone: false
 # for @olevitt:
 chalkboard: # press the B key to toggle chalkboard
   theme: whiteboard
 # uncomment to use the multiplex mode:
 #multiplex: true
-format:
-  # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
+title-slide-attributes:
+  data-background-image: background.svg
+  data-background-size: contain
+  data-background-opacity: "0.3"
+format:   
   onyxia-revealjs:
   #onyxia-dark-revealjs:
     output-file: index.html
+    preview-links: auto
+    multiplex: true
 # visual editor configuration:
 editor:
   render-on-save: true
@@ -57,3 +75,35 @@ editor:
 . . .
 
 5. Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)
+
+```{r}
+3 + 12   
+```
+
+## Two columns format
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+## Smaller slides {.small}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived five centuries and the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+## Aside
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+::: aside
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+:::
+
+
