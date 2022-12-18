@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: JuliaMono-Light;
+    src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Light.woff2");
+}
+$work-sans: 'Roboto', sans-serif;
+$font-family-sans-serif: $work-sans !default;
+$presentation-font-size-root: 36px !default;
+
+// Colors
+$bluette: #4758ab;
+$black: rgb(44, 50, 63);
+$white: rgb(241, 240, 235);
+$green: rgb(186, 255, 41);
+$gray-100: #f8f9fa !default;
+$gray-200: #f8f5f0 !default;
+$gray-300: #dfd7ca !default;
+$gray-400: #ced4da !default;
+$gray-500: #98978b !default;
+$gray-600: #8e8c84 !default;
+$gray-700: #495057 !default;
+$gray-800: #3e3f3a !default;
+$gray-900: #212529 !default;
+
+$body-color: $black !default;
+$presentation-heading-text-shadow: 2px 1px 2px rgba($body-color, 0.3) !default;
+$presentation-h1-text-shadow: 2px 4px 3px rgba($body-color, 0.3) !default;
+$presentation-heading-font-weight: bold !default;
+$body-bg: $white !default;
+$link-color: $bluette !default;
+$light-bg-text-color: $black !default;
+$light-bg-link-color: $bluette !default;
+$light-bg-code-color: $bluette !default;
+$dark-bg-text-color: $gray-900 !default;
+$dark-bg-link-color: $bluette !default;
+$dark-bg-code-color: $green !default;
+
+/*-- scss:rules --*/
+.orange {
+    color: $bluette;
+}
+
+pre pre.sourceCode{
+    font-family: JuliaMono-Light;
+}
+
