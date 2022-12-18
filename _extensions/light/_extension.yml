@@ -1,5 +1,5 @@
-title: Onyxia Presentation (light theme)
-author: Romain Lesur
+title: gragusa presentation (light theme)
+author: Giuseppe Ragusa
 version: 1.1.0
 contributes:
   formats:
@@ -7,5 +7,7 @@ contributes:
       theme: [default, onyxia.scss]
       css: [logo.css]      
       email-obfuscation: javascript      
-        
+      header-includes: |
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  
        
