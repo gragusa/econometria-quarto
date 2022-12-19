@@ -1,11 +1,11 @@
-title: gragusa presentation (dark theme)
+title: Econometria Slides (dark theme)
 author: Giuseppe Ragusa
 version: 1.1.0
 contributes:
   formats:
     revealjs:
       filters: [bg.lua]
-      theme: [default, onyxia-dark.scss]
+      theme: [default, econometria-dark.scss]
       css: [logo.css]
       title-slide-attributes:
         data-background-image: background-dark.svg
