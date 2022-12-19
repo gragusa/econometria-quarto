@@ -37,7 +37,7 @@ title-slide-attributes:
   data-background-size: contain
   data-background-opacity: "0.3"
 format:   
-  onyxia-revealjs:
+  light-revealjs:
   #onyxia-dark-revealjs:
     output-file: index.html
     preview-links: auto
